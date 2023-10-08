@@ -15,9 +15,9 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 nav:
-  - 'Blog': /blog/
+  - 'Blog': blog
   - Documentation:
-    - 'BetterTTV': '/bttv/'
+    - 'BetterTTV': 'bttv/emotes'
 plugins:
   - blog:
       archive: false
