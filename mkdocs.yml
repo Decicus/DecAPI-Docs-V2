@@ -17,8 +17,10 @@ theme:
 nav:
   - 'Blog': blog
   - Documentation:
-    - 'BetterTTV': 'bttv/emotes'
+    - 'BetterTTV':
+      - 'Channel Emotes': 'bttv/emotes.md'
 plugins:
+  - macros:
   - blog:
       archive: false
   - rss:
@@ -29,6 +31,10 @@ plugins:
         - categories
         - tags
 extra:
+  # Macros
+  base_url: "https://decapi.me"
+
+  # Configurations
   generator: false
   social:
     - icon: fontawesome/brands/github
