@@ -1,0 +1,4 @@
+git+https://github.com/andyoakley/mkdocs-blog
+mkdocs
+mkdocs-material
+mkdocs-rss-plugin
