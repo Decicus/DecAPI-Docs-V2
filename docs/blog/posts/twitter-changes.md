@@ -1,10 +1,16 @@
 ---
 date: 2023-06-05
+slug: twitter-changes-june-2023
+categories:
+    - Twitter
+tags:
+    - twitter
 ---
 
 # Twitter Changes - June 2023
 
-_This is an archived post from June 2023, originally posted on [GitHub Gist](https://gist.github.com/Decicus/dac2f0212b5243cb7f4c0506cd0deea7). It is no longer relevant to the current version of DecAPI._
+_This is an archived post from June 2023, originally posted on [GitHub Gist](https://gist.github.com/Decicus/dac2f0212b5243cb7f4c0506cd0deea7)._  
+_It is no longer relevant to the current version of DecAPI, as the Twitter APIs have been deprecated from DecAPI._
 
 ## June 6th, 2023
 

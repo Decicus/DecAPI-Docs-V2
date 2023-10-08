@@ -1,5 +1,10 @@
 ---
 date: 2023-08-11
+slug: twitch-follower-endpoints-august-2023
+categories:
+    - Twitch
+tags:
+    - twitch
 ---
 
 # Twitch - Follower-related Endpoints - August 2023

@@ -18,7 +18,8 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 nav:
-  - 'Blog': blog
+  - Home: index.md
+  - 'Blog / Updates': blog
   - Documentation:
     - 'BetterTTV':
       - 'Channel Emotes': 'bttv/emotes.md'
@@ -32,7 +33,6 @@ plugins:
         as_creation: date
         as_update: false
         datetime_format: "%Y-%m-%d"
-        default_timezone: Europe/Oslo
       categories:
         - categories
         - tags
@@ -60,3 +60,7 @@ extra:
       name: DecAPI's GitHub repository
 extra_css:
   - stylesheets/custom.css
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji 
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
