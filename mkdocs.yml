@@ -4,6 +4,7 @@ site_description: Documentation for DecAPI.
 site_url: https://documentation.decapi.me
 theme:
   name: material
+  custom_dir: custom
   features:
     - navigation.footer
   palette:
@@ -19,10 +20,10 @@ theme:
         name: Switch to light mode
 nav:
   - Home: index.md
-  - 'Blog / Updates': blog
+  - 'Blog / Updates': 'blog/index.md'
   - Documentation:
     - 'BetterTTV':
-      - 'Channel Emotes': 'bttv/emotes.md'
+      - 'List Channel Emotes': 'bttv/channel-emotes.md'
 plugins:
   - macros:
   - blog:

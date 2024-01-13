@@ -1,0 +1,107 @@
+{% set botexamples = page.meta.botexamples %}
+<h3 id="examples-for-bots">Examples for bots</h3>
+
+<h4 id="nightbot"><a href="https://nightbot.tv/commands/variable">Nightbot</a></h4>
+<small>
+    <span class="note">Note:</span> Nightbot will automatically convert <code>$(channel)</code> / <code>$(touser)</code> to the correct channel name / username, when the command is used.
+    <br />
+    You do <u>not</u> have to change those variables.
+</small>
+<ul>
+{% for example in botexamples %}
+    {% set url = (example.url | replace(':base_url', config.extra.base_url) | replace(':channel', '$(channel)') | replace (':user', '$(touser)')) %}
+    <li>
+        {{ example.title }}: <code>$(urlfetch {{ url }})</code>
+    </li>
+{% endfor %}
+</ul>
+
+<h4 id="fossabot"><a href="https://docs.fossabot.com/variables/customapi">Fossabot</a></h4>
+<small>
+    <span class="note">Note:</span> Fossabot will automatically convert <code>$(channel)</code> / <code>$(user.login)</code> to the correct channel name / username, when the command is used.
+    <br />
+    You do <u>not</u> have to change those variables.
+</small>
+<ul>
+{% for example in botexamples %}
+    {% set url = (example.url | replace(':base_url', config.extra.base_url) | replace(':channel', '$(channel)') | replace (':user', '$(user.login)')) %}
+    <li>
+        {{ example.title }}: <code>$(customapi {{ url }})</code>
+    </li>
+{% endfor %}
+</ul>
+
+<h4 id="streamelements"><a href="https://streamelements.com/features/chatbot">StreamElements</a></h4>
+<small>
+    <span class="note">Note:</span> StreamElements will automatically convert <code>{channel.name}</code> / <code>{touser.name}</code> to the correct channel name / username, when the command is used.
+    <br />
+    You do <u>not</u> have to change those variables.
+</small>
+<ul>
+{% for example in botexamples %}
+    {% set url = (example.url | replace(':base_url', config.extra.base_url) | replace(':channel', '{channel.name}') | replace (':user', '{touser.name}')) %}
+    <li>
+        {{ example.title }}: <code>${customapi.{{ url }}}</code>
+    </li>
+{% endfor %}
+</ul>
+
+<h4 id="streamlabs-chatbot"><a href="https://streamlabs.com/desktop-chatbot">Streamlabs <abbr title="Streamlabs *Chat Bot* is the version you download and run on your own computer. It's also known as the 'Desktop Chatbot'">Chat Bot</abbr></a></h4>
+<small>
+    <span class="note">Note:</span> Streamlabs Chat Bot will automatically convert <code>$mychannel</code> / <code>$touserid</code> to the correct channel name / username, when the command is used.
+    <br />
+    You do <u>not</u> have to change those variables.
+</small>
+<ul>
+{% for example in botexamples %}
+    {% set url = (example.url | replace(':base_url', config.extra.base_url) | replace(':channel', '$mychannel') | replace (':user', '$touserid')) %}
+    <li>
+        {{ example.title }}: <code>$readapi({{ url }})</code>
+    </li>
+{% endfor %}
+</ul>
+
+<h4 id="streamlabs-cloudbot"><a href="https://streamlabs.com/cloudbot">Streamlabs <abbr title="Streamlabs *Cloudbot* is the bot that Streamlabs hosts themselves. You configure and control the bot via your Streamlabs dashboard / website">Cloudbot</abbr></a></h4>
+<small>
+    <span class="note">Note:</span> Streamlabs Cloudbot will automatically convert <code>{channel.name}</code> / <code>{touser.name}</code> to the correct channel name / username, when the command is used.
+    <br />
+    You do <u>not</u> have to change those variables.
+</small>
+<ul>
+{% for example in botexamples %}
+    {% set url = (example.url | replace(':base_url', config.extra.base_url) | replace(':channel', '{channel.name}') | replace (':user', '{touser.name}')) %}
+    <li>
+        {{ example.title }}: <code>{readapi.{{ url }}}</code>
+    </li>
+{% endfor %}
+</ul>
+
+<h4 id="deepbot"><a href="https://wiki.deepbot.tv/custom_commands">Deepbot</a></h4>
+<small>
+    <span class="note">Note:</span> Deepbot will automatically convert <code>@stream@</code> / <code>@user@</code> to the correct channel name / username, when the command is used.
+    <br />
+    You do <u>not</u> have to change those variables.
+</small>
+<ul>
+{% for example in botexamples %}
+    {% set url = (example.url | replace(':base_url', config.extra.base_url) | replace(':channel', '@stream@') | replace (':user', '@user@')) %}
+    <li>
+        {{ example.title }}: <code>@customapi@[{{ url }}]</code>
+    </li>
+{% endfor %}
+</ul>
+
+<h4 id="phantombot"><a href="https://phantombot.dev/guides/#guide=content-stable/commands/command-variables&jumpto=global-command-tags_customapi">PhantomBot</a></h4>
+<small>
+    <span class="note">Note:</span> PhantomBot will automatically convert <code>(channelname)</code> / <code>(touser)</code> to the correct channel name / username, when the command is used.
+    <br />
+    You do <u>not</u> have to change those variables.
+</small>
+<ul>
+{% for example in botexamples %}
+    {% set url = (example.url | replace(':base_url', config.extra.base_url) | replace(':channel', '(channelname)') | replace (':user', '(touser)')) %}
+    <li>
+        {{ example.title }}: <code>(customapi {{ url }})</code>
+    </li>
+{% endfor %}
+</ul>
