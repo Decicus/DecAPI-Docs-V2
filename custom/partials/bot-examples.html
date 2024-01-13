@@ -33,13 +33,13 @@
 
 <h4 id="streamelements"><a href="https://docs.streamelements.com/chatbot/variables">StreamElements</a></h4>
 <small>
-    <span class="note">Note:</span> StreamElements will automatically convert variables, such as <code>{channel.name}</code> or <code>{touser.name}</code> to the correct channel name / username, when the command is used.
+    <span class="note">Note:</span> StreamElements will automatically convert variables, such as <code>${channel}</code> or <code>${touser}</code> to the correct channel name / username, when the command is used.
     <br />
     You do <u>not</u> have to change those variables.
 </small>
 <ul>
 {% for example in botexamples %}
-    {% set url = (example.url | replace(':base_url', config.extra.base_url) | replace(':channel', '{channel.name}') | replace (':user', '{touser.name}') | replace(':query', '${queryescape ${1:}}') ) %}
+    {% set url = (example.url | replace(':base_url', config.extra.base_url) | replace(':channel', '${channel}') | replace (':user', '${touser}') | replace(':query', '${queryescape ${1:}}') ) %}
     <li>
         {{ example.title }}: <code>${customapi.{{ url }}}</code>
     </li>
