@@ -23,7 +23,11 @@ nav:
   - 'Blog / Updates': 'blog/index.md'
   - Documentation:
     - 'BetterTTV':
-      - 'List Channel Emotes': 'bttv/channel-emotes.md'
+      - 'List channel emotes': 'bttv/channel-emotes.md'
+    - 'DayZ':
+      - 'Get latest blog post': 'dayz/news.md'
+      - 'Map search via iZurvive': 'dayz/izurvive.md'
+      - "Query a PC server's current player count": 'dayz/players.md'
 plugins:
   - macros:
   - blog:
