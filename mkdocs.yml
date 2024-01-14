@@ -1,4 +1,4 @@
-site_name: DecAPI Docs
+site_name: DecAPI Documentation
 site_author: Decicus
 site_description: Documentation for DecAPI.
 site_url: https://documentation.decapi.me
@@ -21,6 +21,7 @@ theme:
 nav:
   - Home: index.md
   - 'Blog / Updates': 'blog/index.md'
+  - Contact: 'contact.md'
   - Documentation:
     - 'BetterTTV':
       - 'List channel emotes': 'bttv/channel-emotes.md'
@@ -28,6 +29,9 @@ nav:
       - 'Get latest blog post': 'dayz/news.md'
       - 'Map search via iZurvive': 'dayz/izurvive.md'
       - "Query a PC server's current player count": 'dayz/players.md'
+    - 'FrankerFaceZ':
+      - 'List channel emotes': 'ffz/channel-emotes.md'
+  - 'Rate limits': 'rate-limits.md'
 plugins:
   - macros:
   - blog:
