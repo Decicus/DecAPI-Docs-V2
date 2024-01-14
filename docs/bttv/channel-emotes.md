@@ -31,7 +31,7 @@ For users that have the BetterTTV browser extension installed (or use a BetterTT
 
 ## Example
 
-Examples use the Twitch channel name: `decicus`.
+Examples use the Twitch channel name: `decicus`
 
 - Example with all types of emotes (default): [{{ base_url }}/bttv/emotes/decicus]({{ base_url }}/bttv/emotes/decicus)
 - Example with only getting animated GIF emotes: [{{ base_url }}/bttv/emotes/decicus?types=gif]({{ base_url }}/bttv/emotes/decicus?types=gif)
