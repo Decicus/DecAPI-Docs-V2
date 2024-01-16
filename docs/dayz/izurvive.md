@@ -21,7 +21,7 @@ You can also visit the URL [{{ base_url }}/dayz/izurvive?list]({{ base_url }}/da
 
 ### Query parameters
 
-- `search` - **Required**. The search query string to search for. This parameter is *case-insensitive*.
+- `search` - **Required** - The search query string to search for. This parameter is *case-insensitive*.
 
 ## Example
 

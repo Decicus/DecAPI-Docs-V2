@@ -17,7 +17,7 @@ Gives you the latest blog post from the [DayZ website](https://dayz.com/).
 
 ### Query parameters
 
-- `search` - Optional. If specified it will only give you the latest blog post where the post title contains the specified text. This parameter is *case-insensitive*.
+- `search` - **Optional** - If specified it will only give you the latest blog post where the post title contains the specified text. This parameter is *case-insensitive*.
 
 ## Example
 

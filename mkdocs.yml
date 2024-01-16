@@ -31,6 +31,10 @@ nav:
       - "Query a PC server's current player count": 'dayz/players.md'
     - 'FrankerFaceZ':
       - 'List channel emotes': 'ffz/channel-emotes.md'
+    - 'Math':
+      - 'Evaluate math expression': 'math/index.md'
+    - 'Miscellaneous':
+      - 'Convert currency': 'misc/currency.md'
   - 'Rate limits': 'rate-limits.md'
 plugins:
   - macros:

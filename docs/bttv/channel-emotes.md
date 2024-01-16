@@ -24,7 +24,7 @@ For users that have the BetterTTV browser extension installed (or use a BetterTT
 
 ### Query parameters
 
-- `types` - Optional. A comma-separated list of types to return. Your options are:
+- `types` - **Optional** - A comma-separated list of types to return. Your options are:
     - `all` - **Default if not specified**. Returns all types of emotes.
     - `gif` - Returns only animated GIF emotes.
     - `png` - Returns only static PNG image emotes.
