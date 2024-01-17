@@ -6,3 +6,7 @@
 .note {
     color: #d66400;
 }
+
+code {
+    user-select: all;
+}
