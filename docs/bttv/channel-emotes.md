@@ -16,7 +16,9 @@ For users that have the BetterTTV browser extension installed (or use a BetterTT
 
 ## Endpoint URL
 
-`{{ base_url }}/bttv/emotes/:channel`
+`{{ base_url }}/bttv/emotes/<channel>`
+
+See [example](#example) below for correct usage.
 
 ## Required URL parameters
 
@@ -31,7 +33,8 @@ For users that have the BetterTTV browser extension installed (or use a BetterTT
 
 ## Example
 
-Examples use the Twitch channel name: `decicus`
+Examples below use the Twitch channel name: `decicus`  
+Make sure to replace `decicus` in the URL with the correct Twitch channel name.
 
 - Example with all types of emotes (default): [{{ base_url }}/bttv/emotes/decicus]({{ base_url }}/bttv/emotes/decicus)
 - Example with only getting animated GIF emotes: [{{ base_url }}/bttv/emotes/decicus?types=gif]({{ base_url }}/bttv/emotes/decicus?types=gif)

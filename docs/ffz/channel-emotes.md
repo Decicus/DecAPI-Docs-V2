@@ -12,7 +12,9 @@ For users that have the FrankerFaceZ browser extension installed (or use a Frank
 
 ## Endpoint URL
 
-`{{ base_url }}/ffz/emotes/:channel`
+`{{ base_url }}/ffz/emotes/<channel>`
+
+See [example](#example) below for correct usage.
 
 ## Required URL parameters
 
@@ -20,6 +22,7 @@ For users that have the FrankerFaceZ browser extension installed (or use a Frank
 
 ## Example
 
-Examples use the Twitch channel name: `decicus`
+Example below use the Twitch channel name: `decicus`  
+Make sure to replace `decicus` in the URL with the correct Twitch channel name.
 
 - Listing channel emotes: [{{ base_url }}/ffz/emotes/decicus]({{ base_url }}/ffz/emotes/decicus)
