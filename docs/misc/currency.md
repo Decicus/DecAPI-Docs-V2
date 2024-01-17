@@ -2,9 +2,9 @@
 title: Convert currency
 botexamples:
   - title: "Convert from user specified number of EUR (euros) to NOK (Norwegian Krone)"
-    url: ":base_url/misc/currency?from=EUR&to=NOK&amount=:query"
+    url: ":base_url/misc/currency?from=EUR&to=NOK&value=:query"
   - title: "Convert from user specified number of EUR (euros) to NOK (Norwegian Krone), round to 2 decimal places"
-    url: ":base_url/misc/currency?from=EUR&to=NOK&amount=:query&round=2"
+    url: ":base_url/misc/currency?from=EUR&to=NOK&value=:query&round=2"
 ---
 
 # Convert currency
@@ -19,7 +19,7 @@ You can see a list of supported currencies/cryptocurrencies here: [{{ base_url }
 
 ## Endpoint URL
 
-`{{ base_url }}/misc/currency?from=EUR&to=NOK&amount=1`
+`{{ base_url }}/misc/currency?from=EUR&to=NOK&value=1`
 
 ## Required query parameters
 
@@ -33,5 +33,5 @@ You can see a list of supported currencies/cryptocurrencies here: [{{ base_url }
 
 ## Examples
 
-- Convert _from_ 1 EUR (Euro), _to_ NOK (Norwegian Krone): `{{ base_url }}/misc/currency?from=EUR&to=NOK&amount=1`
-- Convert _from_ 15 USD (US Dollar), _to_ NOK (Norwegian Krone) and round to 2 decimal places: `{{ base_url }}/misc/currency?from=USD&to=NOK&amount=15&round=2`
+- Convert _from_ 1 EUR (Euro), _to_ NOK (Norwegian Krone): `{{ base_url }}/misc/currency?from=EUR&to=NOK&value=1`
+- Convert _from_ 15 USD (US Dollar), _to_ NOK (Norwegian Krone) and round to 2 decimal places: `{{ base_url }}/misc/currency?from=USD&to=NOK&value=15&round=2`
