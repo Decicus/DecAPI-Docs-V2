@@ -36,6 +36,7 @@ nav:
     - 'Miscellaneous':
       - 'Convert currency': 'misc/currency.md'
   - 'Rate limits': 'rate-limits.md'
+  - 'Server Setup & Costs': 'server-setup.md'
 plugins:
   - macros:
   - blog:
@@ -45,7 +46,7 @@ extra:
   base_url: "https://decapi.me"
 
   # Configurations
-  generator: false
+  generator: true
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/Decicus/DecAPI-Docs
@@ -65,6 +66,7 @@ extra:
 extra_css:
   - stylesheets/custom.css
 markdown_extensions:
+  - attr_list:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji 
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
