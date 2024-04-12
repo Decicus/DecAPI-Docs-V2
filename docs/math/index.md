@@ -28,7 +28,7 @@ The examples at the bottom of this documentation page try to use the correct bot
 
 `{{ base_url }}/math?exp=369%2B51`
 
-## Required query parameters
+## Query parameters
 
 - `exp` - **Required** - The mathematic expression to receive the result from.
 - `round` - **Optional** - Round to the specified number of decimal places.

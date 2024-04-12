@@ -21,7 +21,7 @@ You can see a list of supported currencies/cryptocurrencies here: [{{ base_url }
 
 `{{ base_url }}/misc/currency?from=EUR&to=NOK&value=1`
 
-## Required query parameters
+## Query parameters
 
 - `from` - **Required** - The currency to convert _from_.
 - `to` - **Required** - The currency to convert _to_.
