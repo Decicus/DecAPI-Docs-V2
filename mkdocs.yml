@@ -35,7 +35,8 @@ nav:
       - 'Evaluate math expression': 'math/index.md'
     - 'Miscellaneous':
       - 'Convert currency': 'misc/currency.md'
-      - 'Display the current time in a specified timezone': 'misc/time.md'
+      - 'Current time in timezone': 'misc/time.md'
+      - 'Time difference between two timestamps': 'misc/time-difference.md'
   - 'Rate limits': 'rate-limits.md'
   - 'Server Setup & Costs': 'server-setup.md'
 plugins:

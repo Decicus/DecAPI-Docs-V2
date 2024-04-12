@@ -7,7 +7,7 @@ If you would like to contribute to the documentation, take a look at the [:fonta
 
 If you have any questions or need support, feel free to join the [:fontawesome-brands-discord: Discord server][Discord] and ask in the `#support` channel.
 
-For other ways of contacting me, see the [contact page](contact.md).
+For other ways of contacting me personally, see the [contact page](contact.md).
 
 ## Localization / translations
 
