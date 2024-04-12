@@ -30,6 +30,6 @@ Supports [localization](../index.md#localization-translations)! Example time in 
 
 ## Examples
 
-- Time since May 17th, 1814 at 13:37:06 Central European Time: `{{ base_url }}/misc/time-difference?first=1814-05-17T13:37:06%2B02:00`
-- Time since May 17th, 1814 at 13:37:06 Central European Time, localized in Norwegian: `{{ base_url }}/misc/time-difference?first=1814-05-17T13:37:06%2B02:00&lang=no`
-- Time between May 17th, 1814 at 13:37:06 Central European Time and July 4th, 1776 at 12:00:00 US Eastern Time: `{{ base_url }}/misc/time-difference?first=1814-05-17T13:37:06%2B02:00&second=1776-07-04T12:00:00-04:00`
+- Time since May 17th, 1814 at 13:37:06 Central European Time: [{{ base_url }}/misc/time-difference?first=1814-05-17T13:37:06%2B02:00]({{ base_url }}/misc/time-difference?first=1814-05-17T13:37:06%2B02:00)
+- Time since May 17th, 1814 at 13:37:06 Central European Time, localized in Norwegian: [{{ base_url }}/misc/time-difference?first=1814-05-17T13:37:06%2B02:00&lang=no]({{ base_url }}/misc/time-difference?first=1814-05-17T13:37:06%2B02:00&lang=no)
+- Time between May 17th, 1814 at 13:37:06 Central European Time and July 4th, 1776 at 12:00:00 US Eastern Time: [{{ base_url }}/misc/time-difference?first=1814-05-17T13:37:06%2B02:00&second=1776-07-04T12:00:00-04:00]({{ base_url }}/misc/time-difference?first=1814-05-17T13:37:06%2B02:00&second=1776-07-04T12:00:00-04:00)

@@ -36,7 +36,7 @@ The examples at the bottom of this documentation page try to use the correct bot
 
 ## Examples
 
-- 369 + 51: `{{ base_url }}/math?exp=369%2B51`
-- 369.122222 + 51.57474769: `{{ base_url }}/math?exp=369.122222%2B51.57474769`
-- 369.122222 + 51.57474769 rounded to 1 decimal place: `{{ base_url }}/math?exp=369.122222%2B51.57474769&round=1`
-- 369.122222 + 50.57474769 rounded to a whole number: `{{ base_url }}/math?exp=369.122222%2B50.57474769&round=0`
+- 369 + 51: [{{ base_url }}/math?exp=369%2B51]({{ base_url }}/math?exp=369%2B51)
+- 369.122222 + 51.57474769: [{{ base_url }}/math?exp=369.122222%2B51.57474769]({{ base_url }}/math?exp=369.122222%2B51.57474769)
+- 369.122222 + 51.57474769 rounded to 1 decimal place: [{{ base_url }}/math?exp=369.122222%2B51.57474769&round=1]({{ base_url }}/math?exp=369.122222%2B51.57474769&round=1)
+- 369.122222 + 50.57474769 rounded to a whole number: [{{ base_url }}/math?exp=369.122222%2B50.57474769&round=0]({{ base_url }}/math?exp=369.122222%2B50.57474769&round=0)

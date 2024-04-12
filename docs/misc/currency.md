@@ -33,5 +33,5 @@ You can see a list of supported currencies/cryptocurrencies here: [{{ base_url }
 
 ## Examples
 
-- Convert _from_ 1 EUR (Euro), _to_ NOK (Norwegian Krone): `{{ base_url }}/misc/currency?from=EUR&to=NOK&value=1`
-- Convert _from_ 15 USD (US Dollar), _to_ NOK (Norwegian Krone) and round to 2 decimal places: `{{ base_url }}/misc/currency?from=USD&to=NOK&value=15&round=2`
+- Convert _from_ 1 EUR (Euro), _to_ NOK (Norwegian Krone): [{{ base_url }}/misc/currency?from=EUR&to=NOK&value=1]({{ base_url }}/misc/currency?from=EUR&to=NOK&value=1)
+- Convert _from_ 15 USD (US Dollar), _to_ NOK (Norwegian Krone) and round to 2 decimal places: [{{ base_url }}/misc/currency?from=USD&to=NOK&value=15&round=2]({{ base_url }}/misc/currency?from=USD&to=NOK&value=15&round=2)

@@ -452,5 +452,5 @@ If the list of timezones ever changes, the link above will be updated automatica
 
 ## Examples
 
-- Display the current time in Oslo, Norway 🇳🇴 (Central European Time): `{{ base_url }}/misc/time?timezone=Europe/Oslo`
-- Display the current time in Los Angeles, USA 🇺🇸 (US Pacific Time), in the format `2024-04-12 02:05:17 PM PDT`: `{{ base_url }}/misc/time?timezone=America/Los_Angeles&format=Y-m-d h:i:s A T`
+- Display the current time in Oslo, Norway 🇳🇴 (Central European Time): [{{ base_url }}/misc/time?timezone=Europe/Oslo]({{ base_url }}/misc/time?timezone=Europe/Oslo)
+- Display the current time in Los Angeles, USA 🇺🇸 (US Pacific Time), in the format `2024-04-12 02:05:17 PM PDT`: [{{ base_url }}/misc/time?timezone=America/Los_Angeles&format=Y-m-d h:i:s A T]({{ base_url }}/misc/time?timezone=America/Los_Angeles&format=Y-m-d h:i:s A T)
