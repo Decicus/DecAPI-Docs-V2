@@ -5,6 +5,11 @@
 {% if "\x3ch1" not in page.content %}
   <h1>{{ page.title | d(config.site_name, true)}}</h1>
 {% endif %}
+<div class="admonition warning">
+  <p class="admonition-title">Work in progress</p>
+  <p>This documentation page is currently work in progress.<br>
+  Not all existing DecAPI endpoints are documented here yet. For the currently active documentation, please visit <a href="https://docs.decapi.me">docs.decapi.me</a>.</p>
+</div>
 {{ page.content }}
 {% if page.meta.botexamples %}
   {% include "partials/bot-examples.html" %}
