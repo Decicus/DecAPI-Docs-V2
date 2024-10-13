@@ -37,6 +37,11 @@ nav:
       - 'Convert currency': 'misc/currency.md'
       - 'Current time in timezone': 'misc/time.md'
       - 'Time difference between two timestamps': 'misc/time-difference.md'
+    - 'Random':
+      - 'Generate random number': 'random/number.md'
+    - 'Steam':
+      - 'Total player count for a Steam game': 'steam/global-players.md'
+      - 'Total playtime in a specified game on a Steam profile': 'steam/hours.md'
   - 'Rate limits': 'rate-limits.md'
   - 'Server Setup & Costs': 'server-setup.md'
 plugins:
