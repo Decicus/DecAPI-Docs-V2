@@ -37,6 +37,8 @@ nav:
       - 'Convert currency': 'misc/currency.md'
       - 'Current time in timezone': 'misc/time.md'
       - 'Time difference between two timestamps': 'misc/time-difference.md'
+    - 'Random':
+      - 'Generate random number': 'random/number.md'
   - 'Rate limits': 'rate-limits.md'
   - 'Server Setup & Costs': 'server-setup.md'
 plugins:
