@@ -1,7 +1,7 @@
 site_name: DecAPI Documentation
 site_author: Decicus
 site_description: Documentation for DecAPI.
-site_url: https://documentation.decapi.me
+site_url: https://documentation.decapi.dev
 theme:
   name: material
   custom_dir: custom
@@ -20,7 +20,8 @@ theme:
         name: Switch to light mode
 nav:
   - Home: index.md
-  - 'Blog / Updates': 'blog/index.md'
+  - Blog:
+    - 'blog/index.md'
   - Contact: 'contact.md'
   - Documentation:
     - 'BetterTTV':
@@ -58,12 +59,15 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/Decicus/DecAPI-Docs
       name: DecAPI documentation's GitHub repository
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/Decicus
-      name: Decicus' personal Twitter account
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/decapi.me
+      name: DecAPI's Bluesky profile
     - icon: fontawesome/brands/patreon
       link: https://www.patreon.com/Decicus
       name: Decicus' Patreon page for supporting development
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/decic.us
+      name: Decicus' personal Bluesky profile
     - icon: fontawesome/brands/discord
       link: https://decapi.link/discord
       name: DecAPI's Discord server
