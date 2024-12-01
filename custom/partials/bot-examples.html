@@ -15,7 +15,9 @@
 {% for example in botexamples %}
     {% set url = (example.url | replace(':base_url', config.extra.base_url) | replace(':channel', '$(channel)') | replace (':user', '$(touser)') | replace(':query', '$(querystring)')) %}
     <li>
-        {{ example.title }}: <code>$(urlfetch <a href="{{ url }}">{{ url }}</a>)</code>
+        {{ example.title }}
+        <br />
+        <code>$(urlfetch <a href="{{ url }}">{{ url }}</a>)</code>
     </li>
 {% endfor %}
 </ul>
@@ -30,7 +32,9 @@
 {% for example in botexamples %}
     {% set url = (example.url | replace(':base_url', config.extra.base_url) | replace(':channel', '$(channel)') | replace (':user', '$(user.login)') | replace(':query', '$(querystring)')) %}
     <li>
-        {{ example.title }}: <code>$(customapi <a href="{{ url }}">{{ url }}</a>)</code>
+        {{ example.title }}
+        <br />
+        <code>$(customapi <a href="{{ url }}">{{ url }}</a>)</code>
     </li>
 {% endfor %}
 </ul>
@@ -45,7 +49,9 @@
 {% for example in botexamples %}
     {% set url = (example.url | replace(':base_url', config.extra.base_url) | replace(':channel', '${channel}') | replace (':user', '${touser}') | replace(':query', '${queryescape ${1:}}') ) %}
     <li>
-        {{ example.title }}: <code>${customapi.<a href="{{ url }}">{{ url }}</a>}</code>
+        {{ example.title }}
+        <br />
+        <code>${customapi.<a href="{{ url }}">{{ url }}</a>}</code>
     </li>
 {% endfor %}
 </ul>
@@ -60,7 +66,9 @@
 {% for example in botexamples %}
     {% set url = (example.url | replace(':base_url', config.extra.base_url) | replace(':channel', '$mychannel') | replace (':user', '$touserid') | replace(':query', '$msg')) %}
     <li>
-        {{ example.title }}: <code>$readapi(<a href="{{ url }}">{{ url }}</a>)</code>
+        {{ example.title }}
+        <br />
+        <code>$readapi(<a href="{{ url }}">{{ url }}</a>)</code>
     </li>
 {% endfor %}
 </ul>
@@ -75,7 +83,9 @@
 {% for example in botexamples %}
     {% set url = (example.url | replace(':base_url', config.extra.base_url) | replace(':channel', '{channel.name}') | replace (':user', '{touser.name}') | replace(':query', '{1:100}')) %}
     <li>
-        {{ example.title }}: <code>{readapi.<a href="{{ url }}">{{ url }}</a>}</code>
+        {{ example.title }}
+        <br />
+        <code>{readapi.<a href="{{ url }}">{{ url }}</a>}</code>
     </li>
 {% endfor %}
 </ul>
@@ -90,7 +100,9 @@
 {% for example in botexamples %}
     {% set url = (example.url | replace(':base_url', config.extra.base_url) | replace(':channel', '@stream@') | replace (':user', '@user@') | replace(':query', '@target@')) %}
     <li>
-        {{ example.title }}: <code>@customapi@[<a href="{{ url }}">{{ url }}</a>]</code>
+        {{ example.title }}
+        <br />
+        <code>@customapi@[<a href="{{ url }}">{{ url }}</a>]</code>
     </li>
 {% endfor %}
 </ul>
@@ -105,7 +117,9 @@
 {% for example in botexamples %}
     {% set url = (example.url | replace(':base_url', config.extra.base_url) | replace(':channel', '(channelname)') | replace (':user', '(touser)') | replace(':query', '(echo)')) %}
     <li>
-        {{ example.title }}: <code>(customapi <a href="{{ url }}">{{ url }}</a>)</code>
+        {{ example.title }}
+        <br />
+        <code>(customapi <a href="{{ url }}">{{ url }}</a>)</code>
     </li>
 {% endfor %}
 </ul>
