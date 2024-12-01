@@ -10,21 +10,26 @@ Thanks! :heart:
 
 DecAPI currently uses [Hetzner Cloud](https://decic.us/hetzner) (:fontawesome-solid-money-bill-1:{ .dollar-bill } referral link) in Ashburn, Virginia, USA.
 
-There are in total 4 CPX11 cloud servers. 3 of them run the application itself, while the last one is for the database and cache (Redis) server.  
-In addition to the cloud servers, there's a load balancer which is "managed" by Hetzner. The load balancer distributes any requests to DecAPI to the 3 application servers, depending on which one is least busy and available.
+There are in total 6 CPX11 cloud servers. 3 of them run the application itself and another 3 for a database & cache (Redis) cluster.  
+In addition to the cloud servers, there are two load balancer which are "managed" by Hetzner.  
+The first load balancer (`WWW-LB-01`) distributes any requests to DecAPI to the 3 application servers, depending on which one is least busy and available.  
+The second load balancer (`DB-LB-01`) is only for internal communication between the application servers and the database/cache servers, to distribute the load evenly.
 
 During updates to DecAPI, servers will be removed from the load balancer, updated, and then added back to the load balancer. This way DecAPI can keep running while giving as few error responses to users as possible.
 
 Since I live in Norway 🇳🇴, there's also a 25% VAT added to total cost that I have to pay.
 
-| Server name | Description | Cost per month in Euros (excluding VAT) |
+| Server name | Description | Cost per month in Euros (including 25% VAT) |
 | ----------- | ----------------------- | -------------------------- |
-| `WWW-01`    | Application server #1 + Automated backups | €5.12 |
-| `WWW-02`    | Application server #2 + Automated backups | €5.12 |
-| `WWW-03`    | Application server #3 + Automated backups | €5.12 |
-| `DB-01`     | Database & cache server + Automated backups | €5.12 |
-| `LB-01`     | Load balancer | €5.39 |
-| | **Total (_including_ VAT)** | €25.87 + 25% = **€32.3375** |
+| `WWW-01`    | Application server #1 + Automated backups | €7.36 |
+| `WWW-02`    | Application server #2 + Automated backups | €7.36 |
+| `WWW-03`    | Application server #3 + Automated backups | €7.36 |
+| `DB-02`     | Database & cache server #1 | €6.24 |
+| `DB-03`     | Database & cache server #2 | €6.24 |
+| `DB-04`     | Database & cache server #3 | €6.24 |
+| `WWW-LB-01` | Load balancer for the application servers | €6.74 |
+| `DB-LB-01`  | Load balancer for the database & cache cluster | €6.74 |
+| | **Total (including 25% VAT)** | €54.28 |
 
 ## Domain costs
 
