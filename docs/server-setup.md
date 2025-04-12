@@ -21,15 +21,16 @@ Since I live in Norway 🇳🇴, there's also a 25% VAT added to total cost that
 
 | Server name | Description | Cost per month in Euros (including 25% VAT) |
 | ----------- | ----------------------- | -------------------------- |
-| `WWW-01`    | Application server #1 + Automated backups | €7.36 |
-| `WWW-02`    | Application server #2 + Automated backups | €7.36 |
+| `WWW-01`    | Application server #1 | €6.24 |
+| `WWW-02`    | Application server #2 | €6.24 |
 | `WWW-03`    | Application server #3 + Automated backups | €7.36 |
+| `WWW-04`    | Application server #4 | €6.24 |
 | `DB-02`     | Database & cache server #1 | €6.24 |
 | `DB-03`     | Database & cache server #2 | €6.24 |
 | `DB-04`     | Database & cache server #3 | €6.24 |
 | `WWW-LB-01` | Load balancer for the application servers | €6.74 |
 | `DB-LB-01`  | Load balancer for the database & cache cluster | €6.74 |
-| | **Total (including 25% VAT)** | €54.28 |
+| | **Total (including 25% VAT)** | €45.80 |
 
 ## Domain costs
 
