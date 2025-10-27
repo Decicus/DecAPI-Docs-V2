@@ -7,6 +7,7 @@ botexamples:
     url: ":base_url/twitch/creation/:user?tz=Europe/Oslo&format=Y-m-d H:i:s T"
   - title: "Get creation date and time for a Twitch user specified after the command, using the timezone in <i>Los Angeles (US Pacific Time)</i> and the format <code>2024-06-01 06:15:34 PM PDT</code>"
     url: ":base_url/twitch/creation/:user?tz=America/Los_Angeles&format=Y-m-d h:i:s A T"
+cached: true
 ---
 
 # Creation date & time for a Twitch user

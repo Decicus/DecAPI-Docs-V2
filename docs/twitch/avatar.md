@@ -3,6 +3,7 @@ title: "Twitch user's avatar URL"
 botexamples:
   - title: "Get avatar URL of the current avatar for Twitch user specified after the command"
     url: ":base_url/twitch/avatar/:user"
+cached: true
 ---
 
 # Twitch user's avatar URL

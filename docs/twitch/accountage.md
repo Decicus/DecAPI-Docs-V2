@@ -5,6 +5,7 @@ botexamples:
     url: ":base_url/twitch/accountage/:user"
   - title: "Get account age for a Twitch user specified after the command, with more precision"
     url: ":base_url/twitch/accountage/:user?precision=7"
+cached: true
 ---
 
 # Account age for a Twitch user

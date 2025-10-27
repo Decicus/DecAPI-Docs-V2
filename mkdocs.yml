@@ -47,6 +47,8 @@ nav:
       - 'Account age': 'twitch/accountage.md'
       - 'Avatar URL': 'twitch/avatar.md'
       - 'Account creation date and time': 'twitch/creation.md'
+      - 'Follow age / follow length': 'twitch/followage.md'
+  - 'Cached Endpoints': 'cached-endpoints.md'
   - 'Rate limits': 'rate-limits.md'
   - 'Server Setup & Costs': 'server-setup.md'
 plugins:
@@ -85,6 +87,8 @@ extra_javascript:
 markdown_extensions:
   - admonition
   - attr_list
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji 
       emoji_generator: !!python/name:material.extensions.emoji.to_svg

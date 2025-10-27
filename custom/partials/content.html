@@ -11,6 +11,12 @@
   Not all existing DecAPI endpoints are documented here yet - mostly Twitch and YouTube endpoints. The rest of the endpoints should have accurate documentation :)<br>
   For the currently active documentation, please visit <a href="https://docs.decapi.me">docs.decapi.me</a>.</p>
 </div>
+{% if page.meta.cached %}
+<div class="admonition info">
+  <p class="admonition-title">Cached endpoint</p>
+  <p>This endpoint is cached and won't always be fully up-to-date. See the <a href="/cached-endpoints">Cached endpoints</a> page for more information.</p>
+</div>
+{% endif %}
 {{ page.content }}
 {% if page.meta.botexamples %}
   {% include "partials/bot-examples.html" %}
