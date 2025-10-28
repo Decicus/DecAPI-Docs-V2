@@ -445,7 +445,12 @@ If the list of timezones ever changes, the link above will be updated automatica
 
 ## Query parameters
 
-- `tz` - **Required** - The timezone to display the time in.
+- `timezone` - **Required** - The timezone to display the time in.
+    - Some examples:
+        - `America/Los_Angeles` - Pacific Time (US & Canada)
+        - `America/New_York` - Eastern Time (US & Canada)
+        - `Europe/Berlin` - Central European Time
+        - `Asia/Tokyo` - Japan Standard Time
 - `format` - **Optional** - The format to display the time in.
     - Follows the [PHP date format](https://www.php.net/manual/en/datetime.format.php#refsect1-datetime.format-parameters) syntax.
     - Default format: `h:i:s A T`, which results in something like: `02:05:17 PM UTC`
