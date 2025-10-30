@@ -12,7 +12,7 @@ Gives you the total number of followers of a specified Twitch channel.
 
 ## Endpoint URL
 
-`{{ base_url }}/twitch/followcount/TWITCH_CHANNEL_USERNAME_HERE`
+`{{ base_url }}/twitch/followcount/CHANNEL_USERNAME_HERE`
 
 See [examples](#examples) below for usage with an actual Twitch channel.
 
@@ -20,6 +20,6 @@ See [examples](#examples) below for usage with an actual Twitch channel.
 
 - `:channel` - The username of the Twitch channel you want to get the follower count for.
 
-## Example usage
+## Example
 
 - Get the total number of followers of the Twitch channel _Decicus_: [{{ base_url }}/twitch/followcount/decicus]({{ base_url }}/twitch/followcount/decicus)
