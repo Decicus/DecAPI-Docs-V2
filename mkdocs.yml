@@ -47,6 +47,7 @@ nav:
       - 'Account age': 'twitch/accountage.md'
       - 'Avatar URL': 'twitch/avatar.md'
       - 'Account creation date and time': 'twitch/creation.md'
+      - 'Channel emotes': 'twitch/emotes.md'
       - 'Follow age / follow length': 'twitch/followage.md'
       - 'Follow count': 'twitch/followcount.md'
       - 'Followed date and time': 'twitch/followed.md'
