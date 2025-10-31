@@ -35,7 +35,7 @@ Expand the section below for a step-by-step guide with screenshots on how to get
     If you're already logged into your Twitch account, it should look something like this:
 
     ??? example "Click here to see screenshot"
-        ![DecAPI Twitch authentication - step 1](/static/img/twitch-authorize-follow-token.png)
+        ![DecAPI Twitch authentication - step 1](../static/img/twitch-authorize-follow-token.png)
 
     Click on authorize to continue.
 
@@ -44,7 +44,7 @@ Expand the section below for a step-by-step guide with screenshots on how to get
     After authorizing DecAPI, you will be redirected to a page that shows your DecAPI token. It should look something like this:
 
     ??? example "Click here to see screenshot"
-        ![DecAPI Twitch authentication - step 2](/static/img/twitch-display-follow-token.png)
+        ![DecAPI Twitch authentication - step 2](../static/img/twitch-display-follow-token.png)
 
     Copy the token shown on the page, in my example it's `rrxnuU1ZvVjeLGZ4pPCIdaVkefJWvviB9AM24oWO`, but **this will be different for you and every other user**.
 
@@ -75,7 +75,7 @@ Expand the section below for a step-by-step guide with screenshots on how to get
         - `6` - Show all time units except seconds (e.g., "2 years, 3 months, 2 weeks, 4 days, 5 hours, 6 minutes")
         - `7` - Show all time units including seconds (e.g., "2 years, 3 months, 2 weeks, 4 days, 5 hours, 6 minutes, 7 seconds")
 - `lang` - Optional - Language to use for the output. Default is `en` (English).
-    - See the [homepage](/#localization-translations) for more information about the currently supported languages.
+    - See the [homepage](../index.md#localization-translations) for more information about the currently supported languages.
 
 ## Examples
 

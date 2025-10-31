@@ -19,7 +19,7 @@ You need to know the "Steam 64 ID" of the player you want to get the playtime fo
 For the "Steam 64 ID", you can use a service like [SteamID.co](https://steamid.co/) and put your Steam community profile URL in to get the ID.  
 For example, the Steam 64 ID for the profile URL `https://steamcommunity.com/id/Decicus/` is `76561197997719567`.  
 
-![Screenshot of SteamID.co, showing my Steam profile with Steam 64 ID highlighted](/static/img/steam-hours-steamid.png)
+![Screenshot of SteamID.co, showing my Steam profile with Steam 64 ID highlighted](../static/img/steam-hours-steamid.png)
 
 The "app ID" of a Steam game can be found in the URL of the game's store page.  
 For example:
@@ -33,7 +33,7 @@ For example:
     Game details, such as hours played, is by default hidden.  
     If you want to show your game details, you can change your Steam "Game Details" to public in the privacy settings.  
     You can find the privacy settings by [clicking here](https://steamcommunity.com/my/edit/settings).  
-    ![Screenshot of Steam privacy settings, highlighting Game Details](/static/img/steam-hours-privacy.png)
+    ![Screenshot of Steam privacy settings, highlighting Game Details](../static/img/steam-hours-privacy.png)
 
 ## Endpoint URL
 

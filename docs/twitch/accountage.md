@@ -11,7 +11,7 @@ cached: true
 # Account age for a Twitch user
 
 Gives you the "account age" of a Twitch user. In other words the amount of time passed since their account was created.  
-This works similar to [twitch/creation](/twitch/creation).
+This works similar to [twitch/creation](creation.md).
 
 ## Endpoint URL
 

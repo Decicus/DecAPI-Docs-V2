@@ -8,4 +8,4 @@ Other concerns? Please contact me privately via email: [:fontawesome-solid-envel
 
 If you have found a security vulnerability, please contact me privately via email: [alex@thomassen.sh](mailto:alex@thomassen.sh)
 
-Here's also [my PGP key](/static/public-key-alex@thomassen.sh.asc), if you want to encrypt your message, if you find it necessary.
+Here's also [my PGP key](static/public-key-alex@thomassen.sh.asc), if you want to encrypt your message, if you find it necessary.
