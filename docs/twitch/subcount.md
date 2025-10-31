@@ -15,7 +15,7 @@ Retrieves the current subscriber count for the specified Twitch channel.
 !!! warning "Requires channel owner to have authorized DecAPI for subscriber access"
     The channel owner must authorize DecAPI to access their subscriber data in order for this endpoint to return subscriber information.
 
-    If the channel owner already uses other DecAPI Twitch endpoints with subscriber data access, such as _[random subscriber](/twitch/random-sub/)_ or _[subpoints](/twitch/subpoints/)_, then no further action is needed.
+    If the channel owner already uses other DecAPI Twitch endpoints with subscriber data access, such as _[random subscriber](random-sub.md)_ or _[subpoints](subpoints.md)_, then no further action is needed.
 
     If you are the channel owner, you can authorize DecAPI via this link: [Authorize DecAPI for Twitch Subscriber Access]({{ base_url }}/auth/twitch?redirect=randomsub&scopes=channel:read:subscriptions+user:read:email)
 

@@ -13,7 +13,7 @@ cached: true
 # Creation date & time for a Twitch user
 
 Gives you the creation date and time of a Twitch user.
-If you're only interested in how old a Twitch account is, check out [twitch/accountage](/twitch/accountage).
+If you're only interested in how old a Twitch account is, check out [twitch/accountage](accountage.md).
 
 ## Endpoint URL
 
@@ -30,7 +30,7 @@ See [examples](#examples) below for usage with an actual Twitch username.
 - `format` - Optional - Format of the date and time. Default is `M j. Y - h:i:s A (e)`
     - See the available formatting options on [PHP.net's documentation](https://www.php.net/manual/en/datetime.format.php#refsect1-datetime.format-parameters).
 - `tz` - Optional - Timezone to use for the date and time. Default is `UTC`.
-    - The timezone list is the same as the ones available in [misc/time](/misc/time).
+    - The timezone list is the same as the ones available in [misc/time](../misc/time.md).
 
 ## Examples
 

@@ -13,7 +13,7 @@ Retrieves the amount of subscriber points for the specified Twitch channel.
 !!! warning "Requires channel owner to have authorized DecAPI for subscriber access"
     The channel owner must authorize DecAPI to access their subscriber data in order for this endpoint to return subscriber information.
 
-    If the channel owner already uses other DecAPI Twitch endpoints with subscriber data access, such as _[random subscriber](/twitch/random-sub/)_ or _[subcount](/twitch/subcount/)_, then no further action is needed.
+    If the channel owner already uses other DecAPI Twitch endpoints with subscriber data access, such as _[random subscriber](random-sub.md)_ or _[subcount](subcount.md)_, then no further action is needed.
 
     If you are the channel owner, you can authorize DecAPI via this link: [Authorize DecAPI for Twitch Subscriber Access]({{ base_url }}/auth/twitch?redirect=subpoints&scopes=channel:read:subscriptions+user:read:email)
 

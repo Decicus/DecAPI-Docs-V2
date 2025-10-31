@@ -14,7 +14,7 @@ Gives you the total number of followers of a specified Twitch channel.
 
 `{{ base_url }}/twitch/followcount/CHANNEL_USERNAME_HERE`
 
-See [examples](#examples) below for usage with an actual Twitch channel.
+See [example](#example) below for usage with an actual Twitch channel.
 
 ## Required URL parameters
 

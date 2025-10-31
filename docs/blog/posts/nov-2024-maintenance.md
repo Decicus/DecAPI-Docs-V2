@@ -22,7 +22,7 @@ A more technical explanation can be found below.
 
 ----
 
-As listed on the [server setup page](</server-setup/#server-hosting>), DecAPI effectively runs on 4 servers total.
+As listed on the [server setup page](../../server-setup.md#server-hosting), DecAPI effectively runs on 4 servers total.
 3 for the actual DecAPI application and a single server for the database and cache (Redis). So far, that database / cache server has been very reliable. No extended downtime has been caused due to that server specifically going down.
 However, since it is a single server, it's also a single point of failure. If that server goes down, DecAPI goes down completely until that server comes back up.
 

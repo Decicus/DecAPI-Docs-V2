@@ -31,7 +31,7 @@ Expand the section below for a step-by-step guide with screenshots on how to get
     If you're already logged into your Twitch account, it should look something like this:
 
     ??? example "Click here to see screenshot"
-        ![DecAPI Twitch authentication - step 1](/static/img/twitch-authorize-follow-token.png)
+        ![DecAPI Twitch authentication - step 1](../static/img/twitch-authorize-follow-token.png)
 
     Click on authorize to continue.
 
@@ -40,7 +40,7 @@ Expand the section below for a step-by-step guide with screenshots on how to get
     After authorizing DecAPI, you will be redirected to a page that shows your DecAPI token. It should look something like this:
 
     ??? example "Click here to see screenshot"
-        ![DecAPI Twitch authentication - step 2](/static/img/twitch-display-follow-token.png)
+        ![DecAPI Twitch authentication - step 2](../static/img/twitch-display-follow-token.png)
 
     Copy the token shown on the page — it will be unique.
 
