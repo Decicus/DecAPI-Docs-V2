@@ -19,7 +19,7 @@ For the API to consider `+` as an actual "plus" / addition, it needs to be URL-e
 If you're allowing your viewers to use this as a command in your Twitch chat, then there are _some_ bots that have command variables to properly handle this, such as:
 
 - [Fossabot's `$(querystring)`](https://docs.fossabot.com/variables/querystring)
-- [Nightbot's `$(querystring)`](https://docs.nightbot.tv/commands/variables/querystring)
+- [Nightbot's `$(querystring)`](https://docs.nightbot.tv/variables/querystring)
 - [StreamElements' `${queryescape ${1:}}`](https://docs.streamelements.com/chatbot/variables/queryescape)
 
 The examples at the bottom of this documentation page try to use the correct bot variables for each bot, but the bots listed above are the only ones I know of that will properly encode the `+` character unless done manually.
