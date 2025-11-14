@@ -1,0 +1,6 @@
+{% if config.extra.analytics %}
+  {% set websiteId = config.extra.analytics.websiteId | d("", true) %}
+  {% set baseUrl = config.extra.analytics.baseUrl | d("", true) %}
+{% endif %}
+
+<script defer src="{{ baseUrl }}/script.js" data-website-id="{{ websiteId }}"></script>

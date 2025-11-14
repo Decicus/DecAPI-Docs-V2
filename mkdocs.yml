@@ -1,6 +1,6 @@
 site_name: DecAPI Documentation
-site_author: Decicus
-site_description: Documentation for DecAPI.
+site_author: "Alex Thomassen (Decicus)"
+site_description: Documentation for DecAPI, a custom API provider intended for Twitch chatbots.
 site_url: https://documentation.decapi.dev
 theme:
   name: material
@@ -66,6 +66,11 @@ plugins:
   - blog:
       archive: false
 extra:
+  analytics:
+    provider: umami
+    websiteId: "8f42b539-dddf-446d-832a-7962e006546d"
+    baseUrl: "https://umami.chipset.no"
+
   # Macros
   base_url: "https://decapi.me"
 
@@ -92,8 +97,6 @@ extra:
       name: DecAPI's GitHub repository
 extra_css:
   - stylesheets/custom.css
-extra_javascript:
-  - js/matomo.js
 markdown_extensions:
   - admonition
   - attr_list
